@@ -8,6 +8,11 @@ class CategoriesController extends BaseController {
     {
         $this->beforeFilter('csrf', array('on'=>'post'));
         $this->beforeFilter('admin');
+
+        //shares category information with all views
+        $this->beforeFilter(function() {
+            View::share('catnav', Category::all());
+        });
     }
 
 
