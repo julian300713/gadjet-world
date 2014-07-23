@@ -6,6 +6,11 @@ class UsersController extends BaseController {
         // parent::__construct();
         //pass array to protect post request
         $this->beforeFilter('csrf', array('on'=>'post'));
+        
+        //shares category information with all views
+        $this->beforeFilter(function() {
+            View::share('catnav', Category::all());
+        });
     }
 
     public function getNewaccount() {
