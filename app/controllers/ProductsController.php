@@ -1,6 +1,6 @@
 <?php
 
-class ProductsController extends \BaseController {
+class ProductsController extends BaseController {
 
     //csrf request filter to protect our POST requests
     public function __construct()

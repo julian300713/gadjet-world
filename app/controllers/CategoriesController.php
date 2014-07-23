@@ -1,6 +1,6 @@
 <?php
 
-class CategoriesController extends \BaseController {
+class CategoriesController extends BaseController {
 
     //csrf request filter to protect our POST requests
     //admin filter will protect actions from categories controller
