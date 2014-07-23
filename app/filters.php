@@ -65,6 +65,12 @@ Route::filter('auth.basic', function()
 |
 */
 
+//check if user is not logged in or if user is not admin
+Route::filter('admin', function()
+{
+    if (!Auth::user() || Auth::user()->admin != 1) return Redirect::to('/');
+});
+
 Route::filter('guest', function()
 {
 	if (Auth::check()) return Redirect::to('/');

@@ -5,7 +5,13 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"fideloper/proxy": "dev-master"
+		"fideloper/proxy": "dev-master",
+        "way/generators": "dev-master",
+        "intervention/image": "1.6.*@dev",
+        "moltin/currency": "dev-master",
+        "moltin/tax": "dev-master",
+        "moltin/cart": "dev-master",
+        "moltin/laravel-cart": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
