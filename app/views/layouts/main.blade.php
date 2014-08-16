@@ -58,8 +58,9 @@
                 {{ Form::open(array('url'=>'store/search', 'method'=>'get', 'class' => 'form-search')) }}
                     <div class="input-append">
                         {{ Form::text('keyword', null, array('value'=>'Search & Hit Enter', 'class'=>'search')) }}
-                        {{ Form::submit('Search', array('class'=>'btn btn-sm')) }}
+                        <button type="submit" class="btn"><i class="fa fa-search"></i></button>
                     </div>
+                {{ Form::submit('Search', array('class'=>'btn btn-sm')) }}
                     <i class="fa fa-search"></i>
                 {{ Form::close() }}
             </div>
