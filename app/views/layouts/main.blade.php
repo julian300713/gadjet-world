@@ -57,12 +57,13 @@
             <div class="search-form col col-lg-3 col-md-4 col-sm-5">
                 {{ Form::open(array('url'=>'store/search', 'method'=>'get', 'role' => 'search')) }}
                     <div class="input-group">
-                        {{ Form::text('keyword', null, array('value'=>'Search & Hit Enter', 'class'=>'search')) }}
+                        {{ Form::text('keyword', null, array('value'=>'Search & Hit Enter', 'class'=>'form-control')) }}
                         <div class="input-group-btn">
-                            {{ Form::submit('Search', array('class'=>'btn btn-sm')) }}
+
+                            <button type="submit" class="btn"><i class="fa fa-search"></i></button>
                         </div>
                     </div>
-                    <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                {{ Form::submit('Search', array('class'=>'btn btn-sm')) }}
                     <i class="fa fa-search"></i>
                 {{ Form::close() }}
             </div>
