@@ -55,7 +55,7 @@
                 </nav>
             </div>
             <div class="search-form col col-lg-3 col-md-4 col-sm-5">
-                {{ Form::open(array('url'=>'store/search', 'method'=>'get')) }}
+                {{ Form::open(array('url'=>'store/search', 'method'=>'get', 'class' => 'form-search')) }}
                 <p>
                     <i class="fa fa-search"></i>
                     {{ Form::text('keyword', null, array('value'=>'Search & Hit Enter', 'class'=>'search')) }}
