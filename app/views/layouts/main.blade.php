@@ -59,12 +59,9 @@
                     <div class="input-group">
                         {{ Form::text('keyword', null, array('value'=>'Search & Hit Enter', 'class'=>'form-control')) }}
                         <div class="input-group-btn">
-
                             <button type="submit" class="btn"><i class="fa fa-search"></i></button>
                         </div>
                     </div>
-                {{ Form::submit('Search', array('class'=>'btn btn-sm')) }}
-                    <i class="fa fa-search"></i>
                 {{ Form::close() }}
             </div>
             <div class="user-menu col col-lg-2 col-md-3 col-sm-7 col-xs-6">
