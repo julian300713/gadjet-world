@@ -56,11 +56,11 @@
             </div>
             <div class="search-form col col-lg-3 col-md-4 col-sm-5">
                 {{ Form::open(array('url'=>'store/search', 'method'=>'get', 'class' => 'form-search')) }}
-                <p>
+                    <div class="input-append">
+                        {{ Form::text('keyword', null, array('value'=>'Search & Hit Enter', 'class'=>'search')) }}
+                        {{ Form::submit('Search', array('class'=>'btn btn-sm')) }}
+                    </div>
                     <i class="fa fa-search"></i>
-                    {{ Form::text('keyword', null, array('value'=>'Search & Hit Enter', 'class'=>'search')) }}
-                    {{ Form::submit('Search', array('class'=>'btn btn-sm')) }}
-                </p>
                 {{ Form::close() }}
             </div>
             <div class="user-menu col col-lg-2 col-md-3 col-sm-7 col-xs-6">

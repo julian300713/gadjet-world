@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="64425dca-de47-4ce0-a626-85d38c94dfc9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/main.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/main.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gadjet-world.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="main.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/main.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="99" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.5177665" vertical-offset="663" max-vertical-offset="3910">
+            <state line="62" column="48" selection-start="2349" selection-end="2349" vertical-scroll-proportion="0.7766498" vertical-offset="595" max-vertical-offset="3910">
               <folding />
             </state>
           </provider>
@@ -363,7 +362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="99" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.5177665" vertical-offset="663" max-vertical-offset="3910">
+        <state line="62" column="48" selection-start="2349" selection-end="2349" vertical-scroll-proportion="0.7766498" vertical-offset="595" max-vertical-offset="3910">
           <folding />
         </state>
       </provider>
